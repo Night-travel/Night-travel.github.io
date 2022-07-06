@@ -1,0 +1,387 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/zh/editor.html?c=sunburst-book&code=MYewdgzgLgBKA2IBOEYF4YG0DkBiAIoQEICi-2ANDHgIICsAnAGz52XW4BmAhgCYAMAFgBG2ALoBuAFChIsYQHMAwiERJ0HAExMAzJrpLs02dBgBLKAFMAtgGUoAT3iWNAbykwY0bkjoAuGHdPTwRkANCUTH4xDxgAXwpY7yRBAKDgiPDVZAhMAEYYzwSkqB8dNNiQ7KQstVzNQvjEz2TNCuC4atqczB1GuKk443BTXm5SjUxY9M8wbmtLAOxAbjlADIzAND1KSvMrO0dndo7OtW7Igu3ijuAACzN4XiRLMACpo8DtjrmFpcAhG0BKpU2zTecFu90ezywHyOM2Bs3mi2odEAYGRbWFXUEPJ4vKGwmFo4JfBHYH6ARk1AATugHtg7A44GXfEwRqwum4mmfeFLQQooH4m53TEQ170zx4-mEpaAO9SKYBLJ0AEqaAHPNqUKitz6SL8WLqIBum0A6a7k6WKpXM1Ws4Ea7DkwBwBoAJOUAeUoGoVG41Kgns6iAQ3cyTr7fSBkLGbSVW81UczTouSaQhjwdjncHYWbrTryd78Y6hXHTa7sIA3RUAa3LkwAhboAuuUAFOqALQVAANyVpTaLTTudMATVsA6d7JiPBOv4jNvM2Ab-1AH5GgDg5ckAIkAo66AaeURzWmYGu-22d9qNbANf6gHwEwCmim6Z7T22I5x1fcD_cqocGzYBlI0Ahsqo4G8sFYyHzoVm5G3nlRx-C9MLl1L81kjubxHviJ5HJ2wrtmanLvmi978jGSrdiGWZuoAsHKAALuQHgQewLIYuRLoYAvprYYeuF4b-cL_oAl6ZutRgDusdepFkZRkENo2WZoYAzwbbpRcQwHuJoQe8L5ZmGsGwvB0ZPkhrFmlugBvpoAL6nMaesZyVmgBaZrxzrCR0-F_kS5JEYAYXKqU0v4GVRhGALJKTG_npwRWRx_5boAD2qAH1p5mOWxDZmrR1AOaxHT7kJNJgWm55ZoASXIAhJGSfgKJrIa-4ZClJX6WRp_79kWgBSAYAlJreYJqbkSJopZjBZWRny0nfvWzp9v2gCR2oADobedVTnZUZZKxYAJXKAIK2gAl_h1lHOWagBgSoA1XLNZS5kWex5WNZxPHzT5vnLf-gBm0YAqwaAOlZgAK2mtAl-kJZUpWJaX0hlSXqexZq5YAlc6jXdflZn1E7FYtaKham4VQpFNKTVNgI0jdiEsqJ_5vp14MyT-91ZtN5KAPixgBG6YAbU6AIAGX30mBLHPhV_5Ve2cP1YTm1EsjZKAPN-gBhyi9smI_-01JmSBaAJ2mgCrNrjoFnclUGXfFbxk1lzNU1NbMFvqDmdRtSpmnmjNCiVtb_cB2z9FIkhSJwyAwAAFM4sAAFYaPwEgwGbAA8MBjKUAB0zhgAoUDXJbADUHsmwAlOVxswM4ABuljwHkGj29wmAm2IDs3dInh6-oRuWLAZjm5b6e28Hod5E7Tyu-7MBe2YfswgHwiIMAADWGg52HmBmLH8fbBXIAgNXtigI8kw6x0bcd13yCWAAkrwCfBEnhsB8kGdeKU6i25XIA1_nLtu57HvJGXUIz_sLgYAbnAAK5gMAUBmOAhuEjvsIQAA7hYNzX_Ct9wdwEAuNgb5-O2wjt53buo9eAZ3bI8KAx8kBgB2DYewThLAO2SHQCekkP5fxgr_IU_9B5ALHhoPIKC0TgMgdAiwsD96IIXoIQhIs0HUHEpg-k2DAHDzwRgTQNDgTEKgTAvY8DKFlE4VcOh2BNAokYfiZhQ9HhsJgDoIRRxuGkN2HA5wAikAcJpCBDsPsDbLxrpgZIscb6cP0dXQxC9Y7wG4MIUObgwZdHnvwiIuFeAgHvmAAADtYhwhxYQgE8dwYAFhfEwH4A7OgWiAacLMJwQ2ZiLE-GbolN-bxoDwPsfiAJQSQkBDyGVTITi1ERC0QohJRi46JQdknEgQTrhH1PufS-0C9EANScCZhDsg7cHgMfA-MACEmk6WQvhzgNDpOcAozwnTrG2PgJk66jiJkIJKamKZgdU4wG6b0_pgz8SxPiQA6RwD0BoAwPwGAAAfS5MApG4JAWcjAOh2mwm2X0jQyCwr7Lia0nBw9MB3NYbwMQLyOlHKAQC8FQLY5vJcB7DAsL1n8VDp_JaaJAWPEhX8mRwKFnpUcREXIGLgG_SVLCgIsL2xDC-bSH2nDtHaPrnkRuscRmqP6SKQpkdo6spURQ1ZHYJ4DAGAEi-V8MDpGEEE6uCgkAgFPrwFQJxbnKGqECQphKgSfyQGYSwEAIZos8I4TxRIICn2EJA6A8VgBPCsDULA39-AAFJ2DYEEAADhdaSjokcAiRznBAZAUAAgnzPmKlp3AqDCFBZ4A5BtuAO14JYTxbtTkYDyDG4ISjbkOwUKnAAaj0vpBs_YAFoYAJrzVAQtOyS0KORfAVFGZs0JsjiPMASaAAeMBy3CETeMbg7au31oBnOWZoc_GKJAKUKwSwkB8DMD04WxwwgqqVcgUdUI2X70nR0f-SAk1IHXfaxQx7cL7sPQAdTMLwN2ARNCbrePXfV8NoSdmbfwAI_Ayr2sEN-k0474C7q4dO8YCJ-A0uArhD9AQ_0_ryfwSJs4aQwYGXkOg8GBlwZNNu-BwG0nXD4O4ogvT7WaE6hAQjbj77HtOPUb1cFHHYCgPOyAgTwRQGwsJQD-Gp0zqJKUF2trF3wGXR0PWYAoC2DMAALwRHkf9-LlWEqiPjDsWjoMmiQJ-rDimiF5MEBhnDfK8OGuBJRoj98SOQICO6vT-ILPUdoyuyI0R-b4h42Zt4niQAQAsM0pY8qoB-aTWJ4IVhO1Sao8R0j97OoRai5Z5zeAdCpbS1xsq1GvE-N4_3GxE6vPAmycExwX6IlUsg-BKE_ojwxCGEAA
+	请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const colors = ['#DDDBED', '#A596D5', '#fad04b'];
+const bgColor = '#26325C';
+const itemStyle = {
+  star5: {
+    color: colors[0]
+  },
+  star4: {
+    color: colors[1]
+  },
+  star3: {
+    color: colors[2]
+  },
+  star2: {
+    color: colors[3]
+  }
+};
+const data = [
+  {
+    name: '主题帖',
+    itemStyle: {
+      
+      color: colors[1]
+    },
+    children: [
+      {
+        name: '求助帖',
+        children: [
+          {
+            name: '5☆',
+            children: [
+              {
+                name: '求失眠药'
+              },
+            ]
+          },
+          {
+            name: '4☆',
+            children: [
+              {
+                name: '问药物效果'
+              },
+              {
+                name: '治疗失眠药物'
+              },
+              
+            ]
+          },
+          {
+            name: '3☆',
+            children: [
+              {
+                name: '失眠怎么办'
+              },
+               {
+                name: '睡眠治疗师、心理医生'
+              },
+              {
+                name: '怎么治疗失眠'
+              },
+                 {
+                name: '其他失眠的人在做什么'
+              },
+                 {
+                name: '怎么算失眠'
+              },
+                 {
+                name: '寻找与失眠有关的群'
+              },
+               {
+                name: '怎么快速入睡'
+              }
+            ],
+          }
+        ]
+      },
+      {
+        name: '打卡',
+        children: [
+          {
+            name: '5☆',
+            children: [
+              {
+                name: '失眠'
+              },
+              {
+                name: '睡不着'
+              },
+            ]
+          },
+          {
+            name: '4☆',
+            children: [
+              
+              {
+                name: '睡不好'
+              },
+               {
+                name: '早睡早起打卡'
+               },
+                 {
+                name: '不想睡'
+               } 
+            ]
+          },
+          {
+            name: '3☆',
+            children: [
+              
+              {
+                name: '失眠好了'
+              }
+              
+                    ],
+          }
+        ]
+      },
+      {
+        name: '互助帖',
+        children: [
+          {
+            name: '5☆',
+            children: [
+              {
+                name: '找人聊天'
+              }
+            ]
+          },
+          {
+            name: '4☆',
+            children: [
+              {
+                name: '寻找安慰'
+              },
+              {
+                name: '失眠互助交流群'
+              },
+               {
+                name: '出安眠药'
+               },
+                
+               {
+                name: '警惕骗子'
+               } 
+            ]
+          },
+          {
+            name: '3☆',
+            children: [
+              {
+                name: '找人玩'
+              },
+              {
+                name: '交友'
+              }
+                          ],
+          }
+        ]
+      },
+      {
+        name: '分享帖',
+        children: [
+          {
+            name: '5☆',
+            children: [
+              {
+                name: '分享失眠负面状态'
+              }
+            ]
+          },
+          {
+            name: '4☆',
+            children: [
+              {
+                name: '分享失眠经历'
+              },
+              {
+                name: '分享治疗失眠的方法'
+              }
+            ]
+          },
+          {
+            name: '3☆',
+            children: [
+              {
+                name: '分享治疗失眠的药物'
+              },
+              {
+                name: '其他'
+              },
+              
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+for (let j = 0; j < data.length; ++j) {
+  let level1 = data[j].children;
+  for (let i = 0; i < level1.length; ++i) {
+    let block = level1[i].children;
+    let bookScore = [];
+    let bookScoreId;
+    for (let star = 0; star < block.length; ++star) {
+      let style = (function (name) {
+        switch (name) {
+          case '5☆':
+            bookScoreId = 0;
+            return itemStyle.star5;
+          case '4☆':
+            bookScoreId = 1;
+            return itemStyle.star4;
+          case '3☆':
+            bookScoreId = 2;
+            return itemStyle.star3;
+          case '2☆':
+            bookScoreId = 3;
+            return itemStyle.star2;
+        }
+      })(block[star].name);
+      block[star].label = {
+        color: style.color,
+        downplay: {
+          opacity: 0.5
+        }
+      };
+      if (block[star].children) {
+        style = {
+          opacity: 1,
+          color: style.color
+        };
+        block[star].children.forEach(function (book) {
+          book.value = 1;
+          book.itemStyle = style;
+          book.label = {
+            color: style.color
+          };
+          let value = 1;
+          if (bookScoreId === 0 || bookScoreId === 3) {
+            value = 5;
+          }
+          if (bookScore[bookScoreId]) {
+            bookScore[bookScoreId].value += value;
+          } else {
+            bookScore[bookScoreId] = {
+              color: colors[bookScoreId],
+              value: value
+            };
+          }
+        });
+      }
+    }
+    level1[i].itemStyle = {
+      color: data[j].itemStyle.color
+    };
+  }
+}
+option = {
+  backgroundColor: bgColor,
+  color: colors,
+  series: [
+    {
+      type: 'sunburst',
+      center: ['50%', '48%'],
+      data: data,
+      sort: function (a, b) {
+        if (a.depth === 1) {
+          return b.getValue() - a.getValue();
+        } else {
+          return a.dataIndex - b.dataIndex;
+        }
+      },
+      label: {
+        rotate: 'radial',
+        color: bgColor
+      },
+      itemStyle: {
+        borderColor: bgColor,
+        borderWidth: 2
+      },
+      levels: [
+        {},
+        {
+          r0: 0,
+          r: 40,
+          label: {
+            rotate: 0,
+            fontSize: 21,
+            color:'#FFFFFF'
+          }
+        },
+        {
+          r0: 40,
+          r: 125,
+          label: {
+            fontSize: 15,
+            color:'#FFFFFF'
+          }
+        },
+        {
+          r0: 125,
+          r: 160,
+          itemStyle: {
+            shadowBlur: 3,
+            shadowColor: colors[2],
+            color: 'transparent'
+          },
+          label: {
+            rotate: 'tangential',
+            fontSize: 14,
+            color: colors[0]
+          }
+        },
+        {
+          r0: 160,
+          r: 165,
+          itemStyle: {
+            shadowBlur: 3,
+            shadowColor: colors[0]
+          },
+          label: {
+            position: 'outside',
+            fontSize: 15,
+            textShadowBlur: 1,
+            textShadowColor: '#FFFFFF'
+          },
+          downplay: {
+            label: {
+              opacity: 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
